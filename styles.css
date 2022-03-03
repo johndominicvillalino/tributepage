@@ -46,3 +46,34 @@
 #img-caption {
     text-align: center;
 }
+
+#zelenskyImg {
+
+  min-width: 100%;
+  height: auto;
+}
+
+
+#tribute-info {
+    margin-top:20px;
+    text-align: center;
+display: relative;
+   width: 450px;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: white;
+}
+
+#tribute-link:hover{
+    background: linear-gradient(to right, midnightblue, royalblue 50%, yellow 120%);
+}
+
+.custom-heading {
+    font-size: 50px;
+}
+
+.img-section{
+    position: relative;
+}
