@@ -22,7 +22,7 @@
 }
 
 .container {
-
+    position: relative;
     color: white;
     display: flex;
     justify-content: center;
@@ -33,14 +33,13 @@
 
 .box {
     margin: 0 50px;
-    
+    max-width: 50%;
 }
 
 .title-inner {
     text-align: center;
     margin: 10px 0;
     font-size: 50px;
-
 }
 
 #img-caption {
@@ -48,9 +47,9 @@
 }
 
 #zelenskyImg {
+    width: 100%;
+    height: auto;
 
-  min-width: 100%;
-  height: auto;
 }
 
 
@@ -59,6 +58,8 @@
     text-align: center;
 display: relative;
    width: 450px;
+   width: 100%;
+   height: auto;
 }
 
 #tribute-link {
@@ -74,3 +75,6 @@ display: relative;
     font-size: 50px;
 }
 
+.img-section {
+    position: relative;
+}
